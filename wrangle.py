@@ -8,8 +8,8 @@ def wrangle():
     df_w = pd.read_csv('https://query.data.world/s/otk67utgv5232zzz3ooavdfwpcj2vz?dws=00000')
     
     # add color feature and 
-    df_r['color'] = 'red'
-    df_w['color'] = 'white'
+    df_r['red'] = 1
+    df_w['red'] = 0
     df = pd.concat([df_r, df_w], axis=0)
     
     # save data
