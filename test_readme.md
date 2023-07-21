@@ -1,6 +1,3 @@
-<!-- ![GitHub](https://cdn-icons-png.flaticon.com/128/3291/3291695.png) -->
-<!-- ![LinkedIn](https://cdn-icons-png.flaticon.com/128/3536/3536505.png) -->
-
 
 # Predicting Wine Quality
 
@@ -35,6 +32,7 @@ The goal of this project is to identify drivers of wine quality for the Californ
 
 ## <a name="deliverables"></a>Deliverables
 [[Back to top](#top)]
+
 A GitHub repostory which includes:
 1. A comprehensive analysis of the dataset, highlighting the drivers of wine quality.
 2. Insights on the impact of chemical components on wine quality.
@@ -54,6 +52,48 @@ A 5-minute professional presentation which includes:
 
 3. **Interaction Effects**: We will investigate potential interactions between different features to determine if their combined influence has a more significant impact on wine quality than individual effects alone.
 
+
+### 1st Hypothesis
+
+Null hypothesis: There is no significant relationship between _____
+Alternative hypothesis: There is a significant relationship between _____
+
+----Results-----
+
+R coefficient: _____ 
+P-value: _____
+
+The p-value is _____
+
+
+
+### 2nd Hypothesis
+
+Null hypothesis: There is no significant relationship between _____
+Alternative hypothesis: There is a significant relationship between _____
+
+----Results-----
+
+R coefficient: _____ 
+P-value: _____
+
+The p-value is _____
+
+
+### 3rd Hypothesis
+
+Null hypothesis: There is no significant relationship between _____
+Alternative hypothesis: There is a significant relationship between _____
+
+----Results-----
+
+R coefficient: _____ 
+P-value: _____
+
+The p-value is _____
+
+
+
 ## <a name="findings"></a>Key Findings
 [[Back to top](#top)]
 ***FILL IN LATER***
@@ -62,13 +102,13 @@ A 5-minute professional presentation which includes:
 [[Back to top](#top)]
 1. **Data Preprocessing**: We will begin by exploring the dataset to handle any missing values, outliers, or data integrity issues. Feature engineering will be performed to create additional relevant features, if necessary.
 
-2. **Exploratory Data Analysis (EDA)**: In this phase, we will visualize the distribution of each feature and its relationship with wine quality. We will identify any notable trends or patterns that support or refute our initial hypotheses.
+2. **Exploratory Data Analysis (EDA)**: In this phase, we will visualize the distribution of each feature and its relationship with wine quality. We will identify any notable trends or patterns that support or refute our initial hypotheses using appropriate statistical testing such as pearson's r.
 
-3. **Cluster Analysis**: Using unsupervised learning techniques such as K-means clustering, we will group similar wine samples together based on their chemical attributes. This will help us gain insights into the different segments of wines present in the dataset.
+3. **Cluster Analysis**: Using unsupervised learning techniques such as K-means clustering, we will group similar wine samples together based on their physiochemical attributes. This will help us gain insights into the different segments of wines present in the dataset.
 
 4. **Machine Learning Models**: We will build predictive models using various algorithms like linear regression, decision trees, random forests, and gradient boosting. Additionally, we will incorporate the identified clusters as additional features and compare the model performance with and without them.
 
-5. **Evaluation**: Model performance will be evaluated using appropriate metrics like mean squared error (MSE), R-squared, and accuracy. The use of clusters will be assessed based on the improvement in model accuracy and interpretability.
+5. **Evaluation**: Model performance will be evaluated using appropriate metrics like root mean squared error (RMSE), and accuracy. The use of clusters will be assessed based on the improvement in model accuracy and interpretability.
 
 ## <a name="dictionary"></a>Data Dictionary
 [[Back to top](#top)]
@@ -85,7 +125,7 @@ A 5-minute professional presentation which includes:
 | pH                | The pH level, which measures acidity or alkalinity.     |
 | Sulphates         | The amount of sulfur dioxide added as a preservative (g/dm³). |
 | Alcohol           | The alcohol content of the wine (% vol.).              |
-| Quality           | The quality rating of the wine, typically on a scale from 0 to 10 (target variable). |
+| Quality           | The quality rating of the wine, on a scale from 0 to 10 (target variable). |
 
 ## <a name="wrangle"></a>Data Acquisition and Prep
 [[Back to top](#top)]
@@ -106,6 +146,7 @@ A 5-minute professional presentation which includes:
 
 ## <a name="conclusions"></a>Takeaways and Conclusions
 [[Back to top](#top)]
+
 Key drivers of `quality`: 
 - Volatile acidity (0.05)
 - Alcohol (0.47)
