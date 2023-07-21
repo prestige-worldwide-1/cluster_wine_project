@@ -1,6 +1,3 @@
-<!-- ![GitHub](https://cdn-icons-png.flaticon.com/128/3291/3291695.png) -->
-<!-- ![LinkedIn](https://cdn-icons-png.flaticon.com/128/3536/3536505.png) -->
-
 
 # Predicting Wine Quality
 
