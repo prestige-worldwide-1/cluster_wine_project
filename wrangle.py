@@ -21,7 +21,7 @@ def wrangle():
     df.to_csv('wine_data.csv', index=False)
     return df
 
-def split_data(df, test_size=.15, validate_size=.15, stratify_col=None, random_state=None):
+def split_data(df, test_size=.15, validate_size=.15, stratify_col=None, random_state=123):
     '''
     take in a DataFrame and return train, validate, and test DataFrames;
     return train, validate, test DataFrames.
