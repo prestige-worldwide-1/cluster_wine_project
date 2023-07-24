@@ -30,7 +30,7 @@ def plot_alcohol_by_quality(train):
                 errorbar=None, ax=axes[0])
 
     for p in axes[0].patches:
-        axes[0].annotate(f'$ {str(round(p.get_height(), 1))}%', 
+        axes[0].annotate(f'{str(round(p.get_height(), 1))}%', 
                     (p.get_x() + p.get_width() / 2, p.get_height()),
                     ha='center', va='bottom', fontsize=8)
 
